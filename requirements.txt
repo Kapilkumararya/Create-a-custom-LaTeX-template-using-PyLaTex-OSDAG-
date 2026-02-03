@@ -1,0 +1,7 @@
+pandas
+numpy
+pylatex
+openpyxl
+pillow
+flask
+flask-cors

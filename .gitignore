@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Flask
+instance/
+.webassets-cache
+
+# Node/React (Frontend)
+client/node_modules/
+client/dist/
+client/.env
+client/.DS_Store
+client/coverage/
+
+# LaTeX / PyLaTeX Artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.xdv
+
+# Generated PDF & TeX files (keep the script, ignore the output)
+Report_*.pdf
+Report_*.tex
+Engineering_Report.pdf
+
+# Project Specific Temporary Files (handled by beam_analysis_report.py)
+temp_data_*.xlsx
+temp_data_*.csv
+temp_beam_*.png
+force_data.xlsx
+beam_diagram.png
+
+# IDE Settings
+.vscode/
+.idea/
+*.swp
